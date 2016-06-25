@@ -6,101 +6,84 @@
     <meta name="description" content="Gabriel Simmer's Portfolio / Landing Page" />
     <meta name="author" content="Gabriel Simmer" />
     <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <!-- Because sometimes nukes are the only option -->
+    <link rel="stylesheet" type="text/css" href="css/reset.css" />
+    <!-- More like "skeleton-grid-custom-css.css" /s -->
     <link rel="stylesheet" type="text/css" href="css/skeleton.css" />
-    <link rel="stylesheet" type="text/css" href="css/normalize.css" />
-    <link rel="stylesheet" type="text/css" href="css/ei/elusive-icons.min.css" />
 </head>
 
 <body>
-    <div class="container">
+    <header>
+        <h3>Gabriel Simmer</h3>
+        <h5>Developing to teach and learn.</h5>
+    </header>
+    <div class="container main-content">
         <div class="row">
-            <div class="twelve columns">
-                <h1>Gabriel Simmer<small>.com</small></h1>
-                <h2>Developing to learn and teach.</h2>
-                <hr />
-                <h4>My work</h4>
+          <!-- Main projects
+               ----------------------------------->
+            <div class="seven columns">
+                <h3 style="color:#212121 !important;">Projects</h3>
+                <div class="project">
+                    <div class="project-img">
+                        <img src="images/nodemc.png" class="u-max-full-width project-img">
+                    </div>
+                    <div class="project-content">
+                        <p>Open-source Minecraft server API wrapper written in Node.js.</p>
+                        <a href="https://github.com/NodeMC">GitHub</a>
+                        <a href="https://nodemc.space">Website</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <div>
+                        <img src="images/simmertech.png" class="u-max-full-width project-img">
+                    </div>
+                    <div class="project-content">
+                        <p>Computer repair &amp; refurbishing on Mayne Island.</p>
+                        <a href="https://www.facebook.com/simmertechmayne/">Website</a>
+                    </div>
+                </div>
+                <div class="project">
+                    <div class="project-img">
+                        <img src="images/spigot.png" class="u-max-full-width project-img">
+                    </div>
+                    <div class="project-content">
+                        <p>Java plugins for Minecraft Spigot servers.</p>
+                        <a href="https://www.spigotmc.org/members/gmemstr.50058/">Forums</a>
+                    </div>
+                </div>
             </div>
+            <!-- /Main projects
+                 ----------------------------------->
+            <!-- Side projects
+                ----------------------------------->
+            <div class="five columns">
+                <h3 style="color:#212121 !important;">Side Projects</h3>
+                <div class="project project-blue project-side">
+                    <div class="project-content">
+                      <h6>Moat</h6>
+                        <p>HTML5 webapp for Voat.co</p>
+                        <a href="https://github.com/gmemstr/moat-mobile">GitHub</a>
+                        <a href="http://gabrielsimmer.com/mm">Website</a>
+                    </div>
+                </div>
+                <div class="project project-red project-side">
+                    <div class="project-content">
+                        <h6>Minecraft Banner Generator</h6>
+                        <p>Generates live server banners.</p>
+                        <a href="https://github.com/ggservers/minecraftbanner">GitHub</a>
+                    </div>
+                </div>
+                <div class="project project-gray project-side">
+                    <div class="project-content">
+                        <h6>scripts</h6>
+                        <p>Linux scripts for various things.</p>
+                        <a href="https://github.com/gmemstr/scripts">GitHub</a>
+                    </div>
+                </div>
+            </div>
+            <!-- /Side projects
+                 ----------------------------------->
         </div>
-        <div class="row">
-            <div class="six columns">
-                <h5>NodeMC <a class="green">Node.js</a></h5>
-                <p>The next generation of Minecraft server dashboards, now. An API wrapper for creating your own Minecraft server management dashboards.
-                    <br>
-                    <a target="_blank" href="https://nodemc.space"><i class="el el-website-alt el-2x"></i></a> <a target="_blank" href="https://github.com/NodeMC"><i class="el el-github el-2x"></i></a></p>
-                <h5>YourCI <a class="green">Node.js</a></h5>
-                <p>Community continous-intergration website that allows anyone to create their own CI tests from a GitHub repo.
-                    <br><a target="_blank" href="https://yourci.space"><i class="el el-website-alt el-2x"></i></a></p>
-                <h5>ComicSocial.XYZ <a class="php">PHP</a></h5>
-                <p>Social site for the sharing and purchase of web comics and physical prints.
-                    <br><a href="#"><i class="el el-website-alt el-2x"></i></a></p>
-            </div>
-            <div class="six columns">
-                <h5>MCPluginStats <a class="php">PHP</a></h5>
-                <p>Developer-oriented analytics for Bukkit and Spigot plugins (full source) with control panel and anonymous analytic collection.
-                    <br><a target="_blank" href="https://github.com/gmemstr/mcpluginstats"><i class="el el-github el-2x"></i></a></p>
-                <h5>Moat <a class="html5">HTML5</a></h5>
-                <p>Voat.co webapp for mobile devices and desktops using HTML5 frameworks/languages.
-                    <br><a target="_blank" href="http://gabrielsimmer.com/mm/"><i class="el el-website-alt el-2x"></i></a> <a target="_blank" href="https://github.com/gmemstr/moat-mobile"><i class="el el-github el-2x"></i></a></p>
-                <h5>Various Bukkit/Spigot Plugins <a class="java">Java</a></h5>
-                <p>Anything from an anti-swear plugin to a semi-functioning ultra-hardcore plugin to a fun plugin for server VIPs.
-                    <br><a target="_blank" href="https://github.com/search?l=Java&q=user%3Agmemstr+Plugin&ref=searchresults&type=Repositories&utf8=%E2%9C%93"><i class="el el-github el-2x"></i></a></p>
-            </div>
-        </div>
-        <div class="row">
-            <div class="twelve columns">
-                <hr/>
-            </div>
-            <div class="two columns">
-                <img src="https://pbs.twimg.com/profile_images/720590428618121216/XZl6C2UJ_400x400.jpg" alt="twitter image" class="u-full-width profile-image">
-            </div>
-            <div class="eight columns">
-                <h4>Who am I?!</h4>
-                <p>I am Gabriel Simmer, self-taught programmer, entrepreneur and web developer. I'm currently employed at <a href="https://ggservers.com">GGServers</a> as a web developer, where I'm working on a top secret project. I've been working with computers since I jailbroke my first iPod (a 4th generation touch), and have been enthralled with learning how they work since then.</p>
-                <h4>What languages have I worked in?</h4>
-                <p>The TL;DR List:
-                    <table class="u-full-width">
-                        <thead>
-                            <tr>
-                                <th>Language</th>
-                                <th>Experience</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>PHP</td>
-                                <td>4 Years</td>
-                            </tr>
-                            <tr>
-                                <td>HTML5 (HTML, JavaScript, CSS)</td>
-                                <td>5 Years</td>
-                            </tr>
-                            <tr>
-                                <td>Java</td>
-                                <td>2 Years</td>
-                            </tr>
-                            <tr>
-                                <td>Node.js</td>
-                                <td>2 Years</td>
-                            </tr>
-                            <tr>
-                                <td>Brainf*ck</td>
-                                <td>2 Months</td>
-                            </tr>
-                            <tr>
-                                <td>C++</td>
-                                <td>1 Year</td>
-                            </tr>
-                            <tr>
-                                <td>C#</td>
-                                <td>6 Months</td>
-                            </tr>
-                        </tbody>
-                    </table>
-                    </tbody>
-                </p>
-            </div>
-        </div>
-    </div>
 </body>
 
 </html>
