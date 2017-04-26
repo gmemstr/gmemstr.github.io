@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,300,400');
+ 
+body { font-family: 'Roboto'; font-weight:300; sans-serif; background-color: #1B2836; color: #C7CBCE;text-align: center; margin-left: 25%; max-width: 50%;}
+
+h1 { font-weight: 100; }
+h2 { font-weight: 300; }
+h3 { font-weight: 400 }
+a { text-decoration: none; color: #1DA1F2; font-weight:bolder; font-weight: 400; }
+li { text-decoration: none; list-style: none; text-align: center; display: inline-block;}
+ul { text-align: center; padding-left: 0; }
+.email { color: #1DA1F2; }
+
+.twitter { color: #1DA1F2; }
