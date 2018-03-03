@@ -96,8 +96,8 @@ hr {
 .button {
 	margin: 0 0.5vw;
 	background-color: #505050;
-	width: 75px;
-	height: 75px;
+	width: 11vh;
+	height: 11vh;
 	border: 1px solid #4F4F51;
 	font-size: 8vh;
 	border-radius: 50%;
