@@ -14,9 +14,9 @@
     <header>
         <img src="https://avatars2.githubusercontent.com/u/1878840?s=400&u=b433687936e1e1c1bfd858737d8323c6a5b58c33&v=4" alt="Github Profile Picture" class="profile-img">
         <div class="status">
-            <span class="time">10:32 <small>AM</small></span>
-            <span class="wifi"><i class="fas fa-wifi"></i></span>
-            <span class="battery">100% <i class="fas fa-battery-full"></i></span>
+            <span id="time">10:32 <small>AM</small></span>
+            <span id="wifi"><i class="fas fa-wifi"></i></span>
+            <span id="battery">100% <i class="fas fa-battery-full"></i></span>
         </div>
     </header>
 
@@ -26,13 +26,13 @@
                 <a href="https://github.com/gmemstr/pogo"><img src="assets/pogo.png" alt="Pogo Logo" class="project-img"></a>
             </div>
             <div class="project" id="platypus">
-                <img src="assets/platypus.png" alt="Platypus Logo" class="project-img">
+                <a href="https://github.com/gmemstr/platypus"><img src="assets/platypus.png" alt="Platypus Logo" class="project-img"></a>
             </div>
-            <div class="project" id="placeholder">
-                <img src="https://placehold.it/400x400" alt="Placeholder Logo" class="project-img">
+            <div class="project" id="gitgalaxy">
+                <img src="assets/gitgalaxy.png" alt="Git Galaxy Logo" class="project-img">
             </div>
-            <div class="project" id="placeholder">
-                <img src="https://placehold.it/400x400" alt="Placeholder Logo" class="project-img">
+            <div class="project" id="nodemc">
+                <img src="assets/nodemc.png" alt="NodeMC Logo" class="project-img">
             </div>
             <div class="project" id="placeholder">
                 <img src="https://placehold.it/400x400" alt="Placeholder Logo" class="project-img">
@@ -59,4 +59,15 @@
     </main>
     <hr />
     </div>
+    <script>
+        var date = new Date();
+        var hours = date.getHours();
+  var minutes = date.getMinutes();
+  var ampm = hours >= 12 ? 'pm' : 'am';
+  hours = hours % 12;
+  hours = hours ? hours : 12; // the hour '0' should be '12'
+  minutes = minutes < 10 ? '0'+minutes : minutes;
+  var strTime = hours + ':' + minutes + ' <small>' + ampm.toUpperCase() + '</small>';
+  document.getElementById("time").innerHTML=strTime;
+    </script>
 </body>
