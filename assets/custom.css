@@ -1,0 +1,77 @@
+body, html {
+	font-family: 'Open Sans', sans-serif;
+	background-color: #2D2D2D;
+	color: #F6F6F6;
+	overflow: hidden;
+	font-weight: bolder;
+	margin: 0 auto; padding: 0;
+}
+
+.profile-img {
+	margin: 10px;
+	max-width: 5vw;
+	border-radius: 50%;
+	border: 0.20vw solid #4F4F51;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow:    0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+	box-shadow:         0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.status {
+	position: absolute;
+	right:5vw;
+	top: 6vh;
+	font-size: 3vh;
+}
+.status span {
+	margin-right: 10px;
+}
+hr {
+	color: #FFFFFF;
+	width: 99vw;
+}
+
+.games {
+	margin-top: 10vh;
+	padding-left: 5%;
+	display: flex;
+	overflow: auto;
+}
+
+.project {
+	margin: 10px;
+	background-color: white;
+    width: 40vh;
+    height: 40vh;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow:    0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+	box-shadow:         0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+.project-img {
+	max-width: 40vh;
+}
+
+.buttons {
+	display: flex;
+	justify-content: center;
+	font-size: 5vw;
+	margin-top: 10vh;
+	margin-bottom: 5vh;
+	text-align: center;
+}
+.button {
+	margin: 0 0.5vw;
+	background-color: #505050;
+	width: 125px;
+	height: auto;
+	border: 1px solid #4F4F51;
+	border-radius: 50%;
+	-webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+	-moz-box-shadow:    0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+	box-shadow:         0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+a {
+	text-decoration: none;
+	color: #F6F6F6 ;
+}
