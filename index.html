@@ -1,87 +1,77 @@
 <!DOCTYPE html>
+<html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gabriel Simmer</title>
-    <meta name="description" content="Gabriel Simmer's Portfolio / Landing Page" />
-    <meta charset="UTF-8"> 
-    <meta name="author" content="Gabriel Simmer" />
-    <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600" rel="stylesheet">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.8/js/all.js"></script>
     <link rel="stylesheet" href="assets/custom.css">
 </head>
 <body>
-    <div class="container">
-    <header>
-        <img src="https://avatars2.githubusercontent.com/u/1878840?s=400&u=b433687936e1e1c1bfd858737d8323c6a5b58c33&v=4" alt="Github Profile Picture" class="profile-img">
-        <span class="name">Gabriel Simmer</span>
-        <div class="status">
-            <span id="time">10:32 <small>AM</small></span>
-            <span id="wifi"><i class="fas fa-wifi" id="wifi"></i></span>
-            <span id="battery">100% <i class="fas fa-battery-full"></i></span>
+    <header id="header">
+        <img src="https://avatars2.githubusercontent.com/u/1878840?s=100&v=4" class="profile-image" alt="Github profile image">
+        <h1>Gabriel Simmer</h1>
+        <div class="check-this-out" id="carousel">
+            <div id="carousel-project"></div>
         </div>
+        <span class="scroll"><a href="#content">
+                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none" stroke="#FFE4A8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
+        </a></span>
     </header>
 
-    <main>
-        <div class="games">
-            <div class="project" id="pogo">
-                <h2 class="projectname">POGO</h2>
-                <a href="https://github.com/gmemstr/pogo"><img src="assets/pogo.png" alt="Pogo Logo" class="project-img"></a>
-            </div>
-            <div class="project" id="platypus">
-                <h2 class="projectname">PLATYPUS</h2>
-                <a href="https://github.com/gmemstr/platypus"><img src="assets/platypus.png" alt="Platypus Logo" class="project-img"></a>
-            </div>
-            <div class="project" id="gitgalaxy">
-                <h2 class="projectname">GIT GALAXY</h2>
-                <a href="https://gitgalaxy.com"><img src="assets/gitgalaxy.png" alt="Git Galaxy Logo" class="project-img"></a>
-            </div>
-            <div class="project" id="nodemc">
-                <h2 class="projectname">NODEMC</h2>
-                <a href="https://github.com/NodeMC"><img src="assets/nodemc.png" alt="NodeMC Logo" class="project-img"></a>
-            </div>
-            <div class="project" id="other">
-                <h2 class="projectname">MORE</h2>
-                <a href="https://github.com/gmemstr"><img src="assets/other.png" alt="Other Stuff" class="project-img"></a>
-            </div>
-        </div>
-
-        <div class="buttons">
-            <div class="button" id="github">
-                <a href="https://github.com/gmemstr"><i class="fab fa-github-alt"></i></a>
-            </div>
-            <div class="button" id="twitch">
-                <a href="https://twitch.tv/gmem_"><i class="fab fa-twitch" style="color:#b9a3e3;"></i></a>
-            </div>
-            <div class="button" id="reddit">
-                <a href="https://reddit.com/u/gmemstr"><i class="fab fa-reddit-alien" style="color:#ff4500;"></i></a>
-            </div>
-            <div class="button" id="email">
-                <a href="mailto:gabriel@gitgalaxy.com"><i class="far fa-envelope"></i></a>
-            </div>
-        </div>
+    <main id="content">
+        <section><img src="assets/project-tiles/gitgalaxy.png" alt="Git Galaxy Logo">
+            <span>
+                <a href="https://gitgalaxy.com" target="_blank"><h2>Git Galaxy <small>Open source driven blog</small></h2></a>
+            </span>
+        </section>
+        <section><img src="assets/project-tiles/pogo.png" alt="Pogo Logo">
+            <span>
+                <a href="https://github.com/gmemstr/pogo" target="_blank"><h2>Pogo <small>Self hosted podcast publishing and RSS</small></h2></a>
+            </span>
+        </section>
+        <section><img src="assets/project-tiles/nodemc.png" alt="NodeMC Logo">
+            <span>
+                <a href="https://github.com/nodemc" target="_blank"><h2>NodeMC <small>Minecraft server wrapper for Nodejs</small></h2></a>
+            </span>
+        </section>
+        <section><img src="assets/project-tiles/alexanders.jpg" alt="Alexander Printing API module Logo">
+            <span>
+                <a href="https://drupal.org/project/alexanders" target="_blank"><h2>Alexanders <small>Alexanders Printing API module for Drupal</small></h2></a>
+            </span>
+        </section>
+        <section><img src="assets/project-tiles/approve.jpg" alt="Commerce Approve module Logo">
+            <span>
+                <a href="https://drupal.org/project/commerce_approve" target="_blank"><h2>Commerce Approve <small>Require manual approval of Commerce orders.</small></h2></a>
+            </span>
+        </section>
+        <section><img src="assets/project-tiles/quicklook.jpg" alt="Entity quicklook module Logo">
+            <span>
+                <a href="https://drupal.org/project/entity_quicklook" target="_blank"><h2>Entity Quicklook <small>Quicklook modal for entity displays.</small></h2></a>
+            </span>
+        </section>
+        <section><img src="assets/project-tiles/quantity-pricing.jpg" alt="Commerce Approve module Logo">
+            <span>
+                <a href="https://drupal.org/project/commerce_quantity_pricing" target="_blank"><h2>Commerce Quantity Pricing <small>Allow bulk discounts on order items.</small></h2></a>
+            </span>
+        </section>
+        <section><img src="assets/project-tiles/vado.jpg" alt="Commerce Approve module Logo">
+            <span>
+                <a href="https://drupal.org/project/commerce_vado" target="_blank"><h2>Commerce Vado <small>Add-on product variations for order items.</small></h2></a>
+            </span>
+        </section>
+        <section><img src="assets/project-tiles/other.png" alt="GitHub Profile Screenshot">
+            <span>
+                <a href="https://github.com/gmemstr" target="_blank"><h2>GitHub Projects <small>Misc. open source projects</small></h2></a>
+            </span>
+        </section>
+        <section class="more-to-come">
+            <span>
+                <h2>More to come <small>...</small></h2>
+            </span>
+        </section>
     </main>
-    <hr />
-    <center><p>Hand built with <i class="fas fa-heart"></i> by Gabriel Simmer</p><style>.bmc-button img{width: 27px !important;margin-bottom: 3px !important;box-shadow: none !important;border: none !important;vertical-align: middle !important;}.bmc-button{line-height: 36px !important;height:37px !important;text-decoration: none !important;display:inline-block !important;color:#000000 !important;background-color:#FFFFFF !important;border-radius: 3px !important;border: 1px solid transparent !important;padding: 1px 9px !important;font-size: 23px !important;letter-spacing:0.6px !important;;box-shadow: 0px 1px 2px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;margin: 0 auto !important;font-family:'Cookie', cursive !important;-webkit-box-sizing: border-box !important;box-sizing: border-box !important;-o-transition: 0.3s all linear !important;-webkit-transition: 0.3s all linear !important;-moz-transition: 0.3s all linear !important;-ms-transition: 0.3s all linear !important;transition: 0.3s all linear !important;}.bmc-button:hover, .bmc-button:active, .bmc-button:focus {-webkit-box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;text-decoration: none !important;box-shadow: 0px 1px 2px 2px rgba(190, 190, 190, 0.5) !important;opacity: 0.85 !important;color:#000000 !important;}</style><link href="https://fonts.googleapis.com/css?family=Cookie" rel="stylesheet"><a class="bmc-button" target="_blank" href="https://www.buymeacoffee.com/gmem"><img src="https://www.buymeacoffee.com/assets/img/BMC-btn-logo.svg" alt="Buy me a coffee"><span style="margin-left:5px">Buy me a coffee</span></a></center>
-    </div>
-    <script>
-        var date = new Date();
-        var hours = date.getHours();
-  var minutes = date.getMinutes();
-  var ampm = hours >= 12 ? 'pm' : 'am';
-  hours = hours % 12;
-  hours = hours ? hours : 12; // the hour '0' should be '12'
-  minutes = minutes < 10 ? '0'+minutes : minutes;
-  var strTime = hours + ':' + minutes + ' <small>' + ampm.toUpperCase() + '</small>';
-  document.getElementById("time").innerHTML=strTime;
-    </script>
-    <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-108077918-1"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'UA-108077918-1');
-</script>
-
+    <script src="/assets/app.js"></script>
 </body>
+</html>

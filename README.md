@@ -1,3 +1,9 @@
 # GabrielSimmer.com
 
-A port of the Nintendo Switch's interface to HTML :)
+## Rewrite goals
+
+ - [x] Cleaner, original interface
+ - [x] Scaling, breakpoints
+ - [x] More dynamic
+ - [ ] Easier to maintain
+ - [x] No fancy frameworks
