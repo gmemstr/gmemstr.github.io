@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/gmemstr
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://gabrielsimmer.com
+  * I am gmemstr (https://keybase.io/gmemstr) on keybase.
+  * I have a public key ASBMj4QNrfveOMKnT4guYVmsDSbeWFDY8hROxodXMjBSdwo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01011000994c6b1128c74e96f47e71d233a9e9acb444203874fbf6bcec7be8dc587e0a",
+      "host": "keybase.io",
+      "kid": "01204c8f840dadfbde38c2a74f882e6159ac0d26de5850d8f2144ec68757323052770a",
+      "uid": "829bfdbfa3f2d6f5f9dcf23d2a355a19",
+      "username": "gmemstr"
+    },
+    "merkle_root": {
+      "ctime": 1568314146,
+      "hash": "9f02bdd422fe8ede123f78f6fff27903d29c21ad874897d23505f84a890cf46541bd6460a8ac3e8b7d90fa1e0aaf21e6f022250ee5c58cfeed32735a5e1cce48",
+      "hash_meta": "e2c4917bda67d73c06237a5536ddf0ab5f99937fb770294e7e0ef998cf121fbd",
+      "seqno": 7024376
+    },
+    "service": {
+      "entropy": "wttbLU19ae2gd5luRKTKVP39",
+      "hostname": "gabrielsimmer.com",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "4.4.1"
+  },
+  "ctime": 1568314147,
+  "expire_in": 504576000,
+  "prev": "8f93933d9858deee563f17492103bbdb064c5f07b6610dd2def607020b5f5995",
+  "seqno": 50,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgTI+EDa373jjCp0+ILmFZrA0m3lhQ2PIUTsaHVzIwUncKp3BheWxvYWTESpcCMsQgj5OTPZhY3u5WPxdJIQO72wZMXwe2YQ3S3vYHAgtfWZXEIFngSHCvG/BNnlGq9f4v/0WCT3H4tav+ZDXgfA8f4KrAAgHCo3NpZ8RAEe1nvazZecCVsL4n2XN4arLZrF/PLbwCAtcydROCFmsWnEUi4HH2mj7lBJ+szPMbrKma9vM0LoNSNLcCACJwDKhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIKU/QnH7p/J/JqjR5rXAYIr95Bz6En1KWeNUCTATMs6So3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/gmemstr
+
+==================================================================
