@@ -10,6 +10,11 @@
 * 12/29/2014
 */
 
+/**
+* Language highlight colours. Should be or match the language/technology's
+* branding guidelines.
+*/
+
 .php {
   color: rgb(136, 146, 191);
 }
@@ -36,6 +41,10 @@
 
 .python {
   color: #4584b6;
+}
+
+.drupal {
+  color: #0077C0;
 }
 
 /* Base Styles
