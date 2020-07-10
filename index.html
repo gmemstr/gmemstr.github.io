@@ -2,76 +2,94 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Gabriel Simmer</title>
-    <link rel="stylesheet" href="assets/custom.css">
+    <meta name="description" content="Gabriel Simmer's Portfolio / Landing Page" />
+    <meta name="author" content="Gabriel Simmer" />
+    <meta content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no" name="viewport">
+    <link rel="stylesheet" type="text/css" href="/assets/stylesheet.css" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🏳️‍🌈</text></svg>">
 </head>
+
 <body>
-    <header id="header">
-        <img src="https://avatars2.githubusercontent.com/u/1878840?s=100&v=4" class="profile-image" alt="Github profile image">
-        <h1>Gabriel Simmer</h1>
-        <div class="check-this-out" id="carousel">
-            <div id="carousel-project"></div>
+    <div class="container">
+        <div class="row">
+            <div class="twelve columns">
+                <h1>Gabriel Simmer</h1>
+                <h2>Developer & Community Wrangler</h2>
+                <hr>
+            </div>
         </div>
-        <span class="scroll"><a href="#content">
-                <svg xmlns="http://www.w3.org/2000/svg" width="100" height="100" viewBox="0 0 24 24" fill="none" stroke="#FFE4A8" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M6 9l6 6 6-6"/></svg>
-        </a></span>
-    </header>
 
-    <main id="content">
-        <section><img src="assets/project-tiles/gitgalaxy.png" alt="Git Galaxy Logo">
-            <span>
-                <a href="https://gitgalaxy.com" target="_blank"><h2>Git Galaxy <small>Open source driven blog</small></h2></a>
-            </span>
-        </section>
-        <section><img src="assets/project-tiles/pogo.png" alt="Pogo Logo">
-            <span>
-                <a href="https://github.com/gmemstr/pogo" target="_blank"><h2>Pogo <small>Self hosted podcast publishing and RSS</small></h2></a>
-            </span>
-        </section>
-        <section><img src="assets/project-tiles/nodemc.png" alt="NodeMC Logo">
-            <span>
-                <a href="https://github.com/nodemc" target="_blank"><h2>NodeMC <small>Minecraft server wrapper for Nodejs</small></h2></a>
-            </span>
-        </section>
-        <section><img src="assets/project-tiles/alexanders.jpg" alt="Alexander Printing API module Logo">
-            <span>
-                <a href="https://drupal.org/project/alexanders" target="_blank"><h2>Alexanders <small>Alexanders Printing API module for Drupal</small></h2></a>
-            </span>
-        </section>
-        <section><img src="assets/project-tiles/approve.jpg" alt="Commerce Approve module Logo">
-            <span>
-                <a href="https://drupal.org/project/commerce_approve" target="_blank"><h2>Commerce Approve <small>Require manual approval of Commerce orders.</small></h2></a>
-            </span>
-        </section>
-        <section><img src="assets/project-tiles/quicklook.jpg" alt="Entity quicklook module Logo">
-            <span>
-                <a href="https://drupal.org/project/entity_quicklook" target="_blank"><h2>Entity Quicklook <small>Quicklook modal for entity displays.</small></h2></a>
-            </span>
-        </section>
-        <section><img src="assets/project-tiles/quantity-pricing.jpg" alt="Commerce Approve module Logo">
-            <span>
-                <a href="https://drupal.org/project/commerce_quantity_pricing" target="_blank"><h2>Commerce Quantity Pricing <small>Allow bulk discounts on order items.</small></h2></a>
-            </span>
-        </section>
-        <section><img src="assets/project-tiles/vado.jpg" alt="Commerce Approve module Logo">
-            <span>
-                <a href="https://drupal.org/project/commerce_vado" target="_blank"><h2>Commerce Vado <small>Add-on product variations for order items.</small></h2></a>
-            </span>
-        </section>
-        <section><img src="assets/project-tiles/other.png" alt="GitHub Profile Screenshot">
-            <span>
-                <a href="https://github.com/gmemstr" target="_blank"><h2>GitHub Projects <small>Misc. open source projects</small></h2></a>
-            </span>
-        </section>
-        <section class="more-to-come">
-            <span>
-                <h2>More to come <small>...</small></h2>
-            </span>
-        </section>
-    </main>
+        <div class="row">
+            <div class="twelve columns">
+                <h3>What I'm currently doing</h3>
+                <p>Working as a Community and Partner Engineer @ <a href="https://circleci.com">CircleCI</a>, with a focus on orbs and tooling.
+                Moderator on the /r/webdev and /r/web_design subreddits, and admin on the associated <a href="https://discord.gg/E5NDGP3">Discord server</a>.
+                Playing around with Clojure in my free time.</p>
+                <a href="https://twitter.com/gmem_">More updates</a>
+                <hr>
+            </div>
+        </div>
 
+        <div class="row">
+            <div class="six columns">
+                <h3>Projects</h3>
+                <div class="project">
+                    <h4>Platypus <span class="go">Go</span></h4>
+                    <p>Large-scale server usage monitoring leveraging websockets. <github-repo>gmemstr/platypus</github-repo></p>
+                </div class="project">
+
+                <div class="project">
+                    <h4>pogo <span class="go">Go</span></h4>
+                    <p>Self-hosted podcast content manager and RSS feed generator. <github-repo>gmemstr/pogo</github-repo></p>
+                </div class="project">
+                
+                <div class="project">
+                    <h4>sliproad <span class="go">Go</span></h4>
+                    <p>Tie together file storage providers in a single unified interface and API. <github-repo>gmemstr/sliproad</github-repo></p>
+                </div class="project">
+
+                <div class="project">
+                    <h4>Deploy <span class="flutter">Flutter</span></h4>
+                    <p>CircleCI mobile client. <github-repo>gmemstr/deploy-app</github-repo></p>
+                </div class="project">
+
+                <div class="project">
+                    <h4>Database Janitor <span class="php">PHP</span></h4>
+                    <p>Create sanitized database dumps. <github-repo>gmemstr/database-janitor</github-repo></p>
+                </div class="project">
+
+                <div class="project">
+                    <h4>Drupal modules <span class="drupal">Drupal</span></h4>
+                    <p>Various Drupal modules created both for client sites and personal use. <a href="https://www.drupal.org/u/gmem">/u/gmem</a></p>
+                </div class="project">
+            </div>
+            <div class="six columns">
+                <h3>Experiments</h3>
+                <div class="experiment">
+                    <h4>banana-clj <span class="clojure">Clojure</span></h4>
+                    <p>Encode your data as the word "banana". <github-repo>gmemstr/banana-clj</github-repo></p>
+                </div class="experiment">
+                <div class="experiment">
+                    <h4>whalepod <span class="rust">Rust</span></h4>
+                    <p>Quicky generate Dockerfiles based on a template. <github-repo>gmemstr/whalepod</github-repo></p>
+                </div class="experiment">
+                <div class="experiment">
+                    <h4>circleci-api-scripts <span class="python">Python</span></h4>
+                    <p>Collection of scripts for interacting with the CircleCI APIs and collecting data. <github-repo>gmemstr/circleci-api-scripts</github-repo></p>
+                </div class="experiment">
+                <div class="experiment">
+                    <h4>no-swears <span class="javascript">JavaScript</span></h4>
+                    <p>Small module for removing swear words from strings. <github-repo>gmemstr/no-swears</github-repo></p>
+                </div class="experiment">
+                <div class="experiment">
+                    <h4>GTFO Terminal OCR <span class="python">Python</span></h4>
+                    <p>Analyze terminals from the "GTFO" game and extract information. <github-repo>gmemstr/gtfo-terminal-ocr</github-repo></p>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="/assets/app.js"></script>
 </body>
+
 </html>

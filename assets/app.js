@@ -1,48 +1,22 @@
-const carousel = document.getElementById("carousel");
-let projects = [];
-window.onload = getProjects;
+class GithubRepoElement extends HTMLElement {
+    constructor() {
+        super();
+        // Create a shadow root
+        var shadow = this.attachShadow({mode: 'open'});
 
-/**
- * Pick random project and place it in the carousel.
- */
-function carouselProjectPicker() {
-    let pointer = Math.round(Math.random() * 10 % projects.length) - 1;
-    if (pointer < 0) pointer = 1;
+        // Create spans
+        var wrapper = document.createElement('a');
+        wrapper.setAttribute("class","github-repo");
+        const link = document.createAttribute("href");
+        link.value = `https://github.com/${this.innerHTML}`
+        wrapper.attributes.setNamedItem(link);
+        wrapper.innerText = this.innerHTML;
 
-    // Create initial anchor element.
-    let project = projects[pointer];
-    let projectElement = document.createElement("a");
-    projectElement.href = project.html_url;
-    projectElement.target = "_blank";
-    projectElement.id = "carousel-project";
+        var style = document.createElement('style');
+        style.textContent = '.github-repo { color: #0FA0CE; }'
+        shadow.appendChild(style)
 
-    // Create project title element.
-    let projectHeader = document.createElement("h2");
-    let projectHeaderText = document.createTextNode(project.name);
-    projectHeader.appendChild(projectHeaderText);
-
-    // Create project description element.
-    let projectHeaderSmall = document.createElement("small");
-    let projectHeaderSmallText = document.createTextNode(project.description);
-    projectHeaderSmall.appendChild(projectHeaderSmallText);
-    projectHeader.appendChild(projectHeaderSmall);
-    projectElement.appendChild(projectHeader);
-
-    let oldProject = document.getElementById("carousel-project");
-    carousel.replaceChild(projectElement, oldProject);
+        shadow.appendChild(wrapper);
+    }
 }
-
-/**
- * Fetch projects from GitHub and trigger carousel event and interval.
- */
-function getProjects() {
-    fetch("https://api.github.com/users/gmemstr/repos")
-    .then(function (response) {
-        return response.json();
-    })
-    .then(function (apiResult) {
-        projects = apiResult;
-        carouselProjectPicker();
-        setInterval(carouselProjectPicker, 10000);
-    });
-}
+customElements.define('github-repo', GithubRepoElement)
