@@ -154,9 +154,9 @@ body {
     color: var(--python);  
   }
   .svelte {
-    background-color: var(--svelte);
+    background-color: var(--background-colour);
     border-color: var(--svelte);
-    color: var(--background-colour);
+    color: var(--svelte);
   }
 }
 
