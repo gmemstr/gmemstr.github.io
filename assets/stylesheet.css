@@ -24,6 +24,7 @@
   --clojure: #62B132;
   --rust: #DEA584;
   --python: #4584B6;
+  --svelte: #ff3e00;
 }
 
 .pill {
@@ -70,6 +71,11 @@
 .python {
   background-color: var(--python);
   border-color: var(--python);
+  color: var(--background-colour);
+}
+.svelte {
+  background-color: var(--svelte);
+  border-color: var(--svelte);
   color: var(--background-colour);
 }
 
