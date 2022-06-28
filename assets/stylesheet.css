@@ -153,6 +153,11 @@ body {
     border-color: var(--python);
     color: var(--python);  
   }
+  .svelte {
+    background-color: var(--svelte);
+    border-color: var(--svelte);
+    color: var(--background-colour);
+  }
 }
 
 /* Grid
