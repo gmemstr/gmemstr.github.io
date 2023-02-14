@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="2.0">
+  <head>
+    <title>ArSS</title>
+    <dateCreated>Tue, 14 Feb 2023 15:48:03</dateCreated>
+  </head>
+  <body>
+    <outline text="Aggregators">
+      <outline text="Hacker News" type="rss" xmlUrl="https://news.ycombinator.com/rss" htmlUrl="https://news.ycombinator.com/" description="Links for the intellectually curious, ranked by readers."/>
+      <outline text="LWN" type="rss" xmlUrl="https://lwn.net/headlines/rss" htmlUrl="https://lwn.net/" description="LWN.net is a comprehensive source of news and opinions from&#10;        and about the Linux community.  This is the main LWN.net feed,&#10;        listing all articles which are posted to the site front page."/>
+      <outline text="Lobsters" type="rss" xmlUrl="https://lobste.rs/rss" htmlUrl="https://lobste.rs/" description=""/>
+      <outline text="Search Slashdot" type="rss" xmlUrl="http://rss.slashdot.org/slashdot/slashdotMain" htmlUrl="https://slashdot.org/" description="News for nerds, stuff that matters"/>
+    </outline>
+    <outline text="Blogs">
+      <outline text="Carrot" type="rss" xmlUrl="https://www.carrot.blog/feed.xml" htmlUrl="https://www.carrot.blog/" description="Hi there, I'm Carrot 👋. This is my personal website, to share my technical write-ups, and open-source work 🥕."/>
+      <outline text="Cendyne's Posts" type="rss" xmlUrl="https://cendyne.dev/feed.xml" htmlUrl="https://cendyne.dev/" description="Thoughts and experience on security, architecture, software, and so on."/>
+      <outline text="Christine Dodrill's Blog" type="rss" xmlUrl="https://christine.website/blog.rss" htmlUrl="https://christine.website/blog" description="Tech, philosophy and more"/>
+      <outline text="Dhole Moments" type="rss" xmlUrl="https://soatok.blog/feed/" htmlUrl="https://soatok.blog/" description="Software, Security, Cryptography, and Furries"/>
+      <outline text="Drew DeVault's blog" type="rss" xmlUrl="https://drewdevault.com/blog/index.xml" htmlUrl="https://drewdevault.com/" description="Recent content in Blogs on Drew DeVault's blog"/>
+      <outline text="Eli" type="rss" xmlUrl="https://eli.thegreenplace.net/feeds/all.atom.xml" htmlUrl="https://eli.thegreenplace.net/" description=""/>
+      <outline text="EmNudge's Blog" type="rss" xmlUrl="https://emnudge.dev/blog.xml" htmlUrl="https://emnudge.dev/" description="Linguistics and Programming"/>
+      <outline text="Faster Than Lime" type="rss" xmlUrl="https://fasterthanli.me/index.xml" htmlUrl="https://fasterthanli.me/" description="amos likes to tinker"/>
+      <outline text="Fosskers.ca Blog" type="rss" xmlUrl="https://www.fosskers.ca/en/rss" htmlUrl="https://www.fosskers.ca/" description="Articles on Haskell, Functional Programming, and Japanese"/>
+      <outline text="Jeff Kaufman's Writing" type="rss" xmlUrl="https://www.jefftk.com/news.rss" htmlUrl="https://www.jefftk.com/p" description="Jeff Kaufman's Writing"/>
+      <outline text="Kubernetes" type="rss" xmlUrl="https://kubernetes.io/feed.xml" htmlUrl="https://kubernetes.io/" description="The Kubernetes project blog"/>
+      <outline text="Mastering Emacs" type="rss" xmlUrl="https://www.masteringemacs.org/feed" htmlUrl="https://www.masteringemacs.org/feed" description="a blog about mastering the world's best text editor"/>
+      <outline text="Tailscale Community" type="rss" xmlUrl="https://tailscale.dev/feed.xml" htmlUrl="https://tailscale.dev/blog" description="Tailscale how-tos, solutions, and integrations"/>
+      <outline text="Tim Bray" type="rss" xmlUrl="https://www.tbray.org/ongoing/ongoing.atom" htmlUrl="https://www.tbray.org/ongoing/" description="ongoing fragmented essay by Tim Bray"/>
+      <outline text="Xenodium" type="rss" xmlUrl="https://xenodium.com/rss.xml" htmlUrl="http://xenodium.com/" description="Alvaro's notes from a hacked up org HTML export."/>
+      <outline text="cURL" type="rss" xmlUrl="https://daniel.haxx.se/blog/feed/" htmlUrl="https://daniel.haxx.se/blog" description="tech, open source and networking"/>
+      <outline text="what if?" type="rss" xmlUrl="https://what-if.xkcd.com/feed.atom" htmlUrl="https://what-if.xkcd.com/" description="Answering your hypothetical questions with physics, every Tuesday."/>
+    </outline>
+    <outline text="Curated">
+      <outline text="EmNudge Reads" type="rss" xmlUrl="https://emnudge.dev/reads.xml" htmlUrl="https://emnudge.dev/" description="Articles you might find interesting"/>
+      <outline text="Gamers Nexus" type="rss" xmlUrl="https://www.gamersnexus.net/news/feed" htmlUrl="https://www.gamersnexus.net/" description="GamersNexus is the authority on in-depth computer hardware reviews as it pertains to gaming."/>
+      <outline text="LWN Features" type="rss" xmlUrl="https://lwn.net/headlines/Features" htmlUrl="https://lwn.net/Articles/" description="This feed contains pointers to all feature articles (those&#10;containing LWN original content and posted as standalone items) found on&#10;the site."/>
+      <outline text="NixOS Webzine" type="rss" xmlUrl="https://webzine.nixos.cafe/atom.xml" htmlUrl="https://webzine.snowflake.ovh/" description=""/>
+      <outline text="The Daily WTF" type="rss" xmlUrl="http://syndication.thedailywtf.com/TheDailyWtf" htmlUrl="http://thedailywtf.com/" description="Curious Perversions in Information Technology"/>
+      <outline text="emacs-news" type="rss" xmlUrl="https://sachachua.com/blog/category/emacs-news/feed/" htmlUrl="https://sachachua.com/blog/category/emacs-news/feed/index.xml" description="Emacs, sketches, and life"/>
+    </outline>
+    <outline text="Software Releases">
+      <outline text="Vaultwarden" type="rss" xmlUrl="https://github.com/dani-garcia/vaultwarden/releases.atom" htmlUrl="https://github.com/dani-garcia/vaultwarden/releases" description=""/>
+    </outline>
+    <outline text="Webcomics">
+      <outline text="CommitStrip" type="rss" xmlUrl="https://www.commitstrip.com/en/feed/" htmlUrl="https://www.commitstrip.com/" description="The blog relating the daily life of web agency developers"/>
+      <outline text="Loading Artist" type="rss" xmlUrl="https://loadingartist.com/index.xml" htmlUrl="https://loadingartist.com/" description="A webcomic by Gregor Czaykowski"/>
+      <outline text="MonkeyUser" type="rss" xmlUrl="https://www.monkeyuser.com/feed.xml" htmlUrl="https://www.monkeyuser.com/" description=""/>
+      <outline text="Oglaf! -- Comics. Often dirty." type="rss" xmlUrl="https://www.oglaf.com/feeds/rss/" htmlUrl="https://www.oglaf.com/latest/" description="Comics. Often dirty. Updates Sundays."/>
+      <outline text="The Oatmeal" type="rss" xmlUrl="https://theoatmeal.com/feed/rss" htmlUrl="http://theoatmeal.com/" description="I make comics about science, cats, social media, and sometimes goats."/>
+    </outline>
+  </body>
+</opml>
